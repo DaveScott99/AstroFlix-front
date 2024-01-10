@@ -5,7 +5,7 @@ export const Container = styled.header`
   align-items: center;
   width: 100%;
   z-index: 10;
-  padding: 20px 10px;
+  padding: 20px 30px;
   background: ${(props) => props.theme.colors.background_color};
   
   border: 1px solid red;

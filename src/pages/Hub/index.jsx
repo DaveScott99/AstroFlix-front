@@ -1,9 +1,10 @@
 import Card from "../../components/Card";
-import { Cards, Container } from "./styles";
+import { Cards, Container, Title } from "./styles";
 
-export default function Home() {
+export default function Hub({ title }) {
   return (
     <Container>
+      <Title>{title}</Title>
       <Cards>
         <Card />
         <Card />

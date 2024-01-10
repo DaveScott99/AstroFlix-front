@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
 import Layout from "../components/Layout";
+
+import Hub from "../pages/Hub";
 
 export default function RouteApp() {
   return (
@@ -12,7 +13,34 @@ export default function RouteApp() {
           path="/"
           element={
             <Layout>
-              <Home />
+              <Hub />
+            </Layout>
+          }
+        />
+        <Route
+          exact
+          path="/movies"
+          element={
+            <Layout>
+              <Hub title="Filmes" />
+            </Layout>
+          }
+        />
+        <Route
+          exact
+          path="/series"
+          element={
+            <Layout>
+              <Hub title="Séries"/>
+            </Layout>
+          }
+        />
+        <Route
+          exact
+          path="/my-list"
+          element={
+            <Layout>
+              <Hub title="Minha lista" />
             </Layout>
           }
         />
