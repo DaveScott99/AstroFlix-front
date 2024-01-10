@@ -14,23 +14,6 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const Header = styled.header`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  z-index: 10;
-  padding: 20px 10px;
-  background: ${(props) => props.theme.colors.background_color};
-  color: ${(props) => props.theme.colors.texts};
-
-  border: 1px solid red;
-
-  a {
-    text-decoration: none;
-  }
-`;
-
 export const Main = styled.main`
   width: 100vw;
   display: flex;
