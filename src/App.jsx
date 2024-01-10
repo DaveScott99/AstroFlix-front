@@ -1,8 +1,19 @@
-import './App.css';
+import React from "react";
+import RoutesApp from "./routes/RoutesApp";
+import GlobalStyle from "./styles/global";
+import theme from "./styles/theme"
+import { ThemeProvider } from "styled-components";
+
+import "./index.css";
 
 function App() {
   return (
-    <h1>Olá mundo!</h1>
+    <>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <RoutesApp />
+      </ThemeProvider>
+    </>
   );
 }
 
