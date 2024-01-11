@@ -5,12 +5,6 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h2`
-  padding: 20px 30px;
+  padding: 20px 50px;
+  font-size: 2em;
 `
-
-export const Cards = styled.div`
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 30px;
-`;

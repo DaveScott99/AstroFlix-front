@@ -23,6 +23,4 @@ export const Main = styled.main`
   position: relative;
   background: ${(props) => props.theme.colors.background_color};
   color: ${(props) => props.theme.colors.texts};
-  
-  border: 1px solid red;
 `;

@@ -6,11 +6,16 @@ export const Container = styled.header`
   justify-content: space-between;
   width: 100%;
   z-index: 10;
-  padding: 20px 30px;
+  padding: 20px 50px;
   background: ${(props) => props.theme.colors.background_color};
-  
-  border: 1px solid red;
 `;
+
+export const Brand = styled.h1`
+  color: ${(props) => props.theme.colors.primary};
+  margin-right: 30px;
+  font-size: 1.3em;
+  cursor: pointer;
+`
 
 export const SideRight = styled.div`
   display: flex;
@@ -18,4 +23,5 @@ export const SideRight = styled.div`
 `
 
 export const SideLeft = styled.div`
+  display: flex;
 `
