@@ -5,9 +5,14 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  z-index: 10;
+  z-index: 999;
   padding: 20px 50px;
-  background: ${(props) => props.theme.colors.background_color};
+  background: transparent;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 `;
 
 export const Brand = styled.h1`

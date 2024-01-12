@@ -17,8 +17,7 @@ export const Container = styled.article`
 `;
 
 export const CoverImage = styled.img`
-  width: 350px;
-  aspect-ratio: 16 / 9;
+  width: 220px;
   object-fit: cover;
   user-select: none;
   border-radius: 5px;
