@@ -27,7 +27,7 @@ export const NavigationLeft = styled.div`
   height: 320px;
   background: rgba(0, 0, 0, 0.6);
   left: 0;
-  z-index: 99;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,7 +47,7 @@ export const NavigationRight = styled.div`
   height: 320px;
   background: rgba(0, 0, 0, 0.6);
   right: 0;
-  z-index: 99;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;

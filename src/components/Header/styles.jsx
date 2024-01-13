@@ -5,7 +5,7 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  z-index: 999;
+  z-index: 2;
   padding: 20px 50px;
   background: transparent;
 

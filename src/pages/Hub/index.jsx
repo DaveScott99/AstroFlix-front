@@ -27,6 +27,7 @@ export default function Hub({ title }) {
   return (
     <Container>
 
+
       {featuredData &&
         <Featured item={featuredData} />
       }
@@ -34,9 +35,11 @@ export default function Hub({ title }) {
       <Title>{title}</Title>
 
       <Lines>
+
         {movieList.map((item, key) => (
-            <Line key={key} categoryName={item.title} movieList={item.items.results}/>
+            <Line key={key} categoryName={item.title} movieList={item.items.results} />
         ))}
+
       </Lines>
       
     </Container>
